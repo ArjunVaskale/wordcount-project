@@ -24,5 +24,5 @@ def count(request):
 
     return render(request , 'count.html' , {'fulltext' : fulltext , 'count' : len(wordlist) , 'sortedlist' : sortedlist } ) 
 
-def about(reque st):
+def about(request):
     return render(request , 'about.html')
